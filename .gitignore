@@ -1,0 +1,10 @@
+# java
+.idea
+target
+
+# javascript
+node_modules
+
+# python
+__pycache__
+*.pyc

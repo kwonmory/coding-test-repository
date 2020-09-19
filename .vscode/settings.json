@@ -1,0 +1,17 @@
+{
+    "java.testClass": [],
+    "python.jediEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./src",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.pythonPath": "/usr/local/opt/python@3.8/bin/python3.8",
+    "python.languageServer": "Jedi",
+    "java.configuration.updateBuildConfiguration": "automatic",
+}
