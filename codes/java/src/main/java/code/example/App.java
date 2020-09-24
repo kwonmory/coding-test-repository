@@ -1,4 +1,4 @@
-package problems.example;
+package code.example;
 
 public class App 
 {

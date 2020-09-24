@@ -1,12 +1,12 @@
 {
-  "name": "algorithm-code-javascript",
+  "name": "coding",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:all": "jest --watchAll"
+    "test": "jest --watchAll"
   },
-  "author": "",
+  "author": "kwonmory",
   "license": "ISC",
   "dependencies": {
     "jest": "^26.0.1",
