@@ -1,6 +1,5 @@
-# 코딩 테스트
+# 코딩 테스트 연습장
 
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>
@@ -15,70 +14,34 @@
 
 ## Problems Index
 
-- 대기
+- 큰수의 법칙(09.24)
+  - [자바스크립트코드1](https://github.com/slow-slow-quick-quick/coding-test-repository/blob/master/codes/javascript/src/book/%ED%81%B0%EC%88%98%EC%9D%98%EB%B2%95%EC%B9%99/solution/p1.test.js) | [자바스크립트코드2](https://github.com/slow-slow-quick-quick/coding-test-repository/blob/master/codes/javascript/src/book/%ED%81%B0%EC%88%98%EC%9D%98%EB%B2%95%EC%B9%99/solution/p2.test.js)
+  - [자바코드1](https://github.com/slow-slow-quick-quick/coding-test-repository/blob/master/codes/java/src/main/java/code/book/%ED%81%B0%EC%88%98%EC%9D%98%EB%B2%95%EC%B9%99/solution/P1.java) | [자바코드2](https://github.com/slow-slow-quick-quick/coding-test-repository/blob/master/codes/java/src/main/java/code/book/%ED%81%B0%EC%88%98%EC%9D%98%EB%B2%95%EC%B9%99/solution/P1.java)
 
-## Test
+## 코테 일지
 
-모든 환경은 MacOS Catalina 버전을 사용
+- 2020.09.24 처음 자바스크립트, 파이썬, 자바언어를 다 사용하려고 했는데.. 일단 자바랑 자바스크립트로 작성하자.
 
-### Python
-
-테스트 프레임워크 : unittest
-
-> unittest, pytest 중 unittest를 사용 (둘다 python에 내장 되어있음, junit에 영향을 받았다고 해서 선택함)
-
-![Python1](./images/29cr66n299ot-2020-09-19-21-43-29.png)
-
-#### Assert
-
-- assertEqual(a, b) / a == b
-- assertNotEqual(a, b) / a != b
-- assertTrue(x) / bool(x) is True
-- assertFalse(x) /bool(x) is False
-- assertIs(a, b) / a is b
-- assertIsNot(a, b) / a is not b
-- assertIsNone(x) / x is None
-- assertIsNotNone(x) / x is not None
-- assertIn(a, b) / a in b
-- assertNotIn(a, b) / a not in b
-- assertIsInstance(a, b) / isinstance(a, b)
-- assertNotIsInstance(a, b) / not isinstance(a, b)
-
-[unittest](https://docs.python.org/ko/3/library/unittest.html)
-
-#### Required
-
-- VSC에서 test framework를 활성화 시켜야함
-- 꼭 테스트 파일이 있는 곳엔 비어있는 `__init__.py` 파일이 존재해야함
-
-#### Referance
-
-- [비주얼 스튜디오 코드에서 파이썬 테스팅하기](https://code.visualstudio.com/docs/python/testing)
-
-- `find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf` : 캐시 파일 삭제하기
+## 언어별 안내
 
 ### Javascript
 
 테스트 프레임워크 : Jest
-
-자바 버전 : Open JDK 14
 
 ![Javascript1](./images/9cr66n99ot-2020-09-19-21-44-09.png)
 
 #### Required
 
 1. `npm install`를 사용하여 jest설치 및 관련된 노드 패키지 다운로드
-2. `npm run watch:all` 명령어를 통해 실시간으로 테스트하기
+2. `npm test` 명령어를 통해 실시간으로 테스트하기
 
 ### Java
 
 테스트 프레임워크 : junit
 
-![Java1](./images/27cr66n278ot-2020-09-19-20-32-27.png)
+자바 버전 : Open JDK 14
 
-![Java2](./images/35cr66n358ot-2020-09-19-20-33-35.png)
-
-java test report를 통해서 UI적으로 테스트 결과를 볼 수 있음
+java test report를 통해서 UI적으로 테스트 결과를 보면서 테스트하기
 
 #### Required
 
